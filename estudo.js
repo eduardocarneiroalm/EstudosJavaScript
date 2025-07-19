@@ -1,21 +1,24 @@
 const prompt = require("prompt-sync")();
-console.log("Hello World!");
+// console.log("Hello World!");
 
-//variáveis - aramazena um tipo de valor
+// variáveis - aramazena um tipo de valor
 
-//var - ele é global, pode ser usado em outro escopo
+// var - ele é global, pode ser usado em outro escopo
 
 // {var nome = "Carneiro"}
 // console.log(nome) -> isso vai funcionar pq o var está em outro escopo, mas se fosse let ou const não ia funcionar, por causa das {}.
 
 
-// let nome = "Eduardo"
+let name = "Eduardo";
 
-// const meuNome = "Carlos"
-// console.log(meuNome)
-// console.log(nome)
+if (name === "Eduardo") {
+    console.log("deu true")
+} else {
+    console.log("deu false")
+}
 
-// // pode guardar em variáveis - pode usar qualquer tipo de variável
+
+// pode guardar em variáveis - pode usar qualquer tipo de variável
 // const string = "Este é um texto";
 // const number = 22;
 // const boolean = true;
@@ -24,7 +27,7 @@ console.log("Hello World!");
 // const func = () => {}
 // const date = new Date();
 
-// const name = prompt("qual o nome do aluno? ");
+// const dadad = prompt("qual o nome do aluno? ");
 // const primaryNote = parseFloat(prompt("Qual a primeiro nota do aluno? "));
 // const secondNote = parseFloat(prompt("Qual a segunda nota do aluno? "));
 
@@ -44,7 +47,7 @@ console.log("Hello World!");
 // console.log(`Olá! ${name}, o valor inicial do seu produto foi de ${price} reais, o valor com desconto é de ${finalValue} reais.`)
 
 
-// const name = prompt("qual o nome do passageiro? ");
+// const nomePassageiro = prompt("qual o nome do passageiro? ");
 // const distance = parseInt(prompt("qual a distancia da viagem? "));
 // const carConsume = parseInt(prompt("qual a média de gasto de km por litro? "));
 // const priceFuel = parseFloat(prompt("qual o preço do combustível? "));
