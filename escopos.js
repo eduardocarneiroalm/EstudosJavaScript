@@ -1,0 +1,3 @@
+//Escopos
+
+//blocos, função, léxico
