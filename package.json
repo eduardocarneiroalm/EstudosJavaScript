@@ -1,10 +1,10 @@
 {
   "name": "javascript",
   "version": "1.0.0",
-  "main": "modulos.js",
-  "type": "module",
+  "main": "promise.js",
+  "type": "commonjs",
   "scripts": {
-    "dev": "node loja-personagens/index.js"
+    "dev": "node desafiosExercicios/pedidoPizza.js"
   },
   "keywords": [],
   "author": "",
