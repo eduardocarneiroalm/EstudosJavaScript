@@ -1,10 +1,10 @@
 {
   "name": "javascript",
   "version": "1.0.0",
-  "main": "promise.js",
+  "main": "classes.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "node desafiosExercicios/pedidoPizza.js"
+    "dev": "node src/classes/exercicio1.js"
   },
   "keywords": [],
   "author": "",
