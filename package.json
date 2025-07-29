@@ -4,7 +4,7 @@
   "main": "classes.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "node src/classes/exercicio1.js"
+    "dev": "node src/date/exercicioDate.js"
   },
   "keywords": [],
   "author": "",
