@@ -2,9 +2,9 @@
   "name": "javascript",
   "version": "1.0.0",
   "main": "classes.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "dev": "node src/date/exercicioDate.js"
+    "dev": "node src/SpreadRest/exercicioGeral.js"
   },
   "keywords": [],
   "author": "",
