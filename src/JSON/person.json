@@ -1,0 +1,9 @@
+{
+    "name": "Carlos",
+    "age": 22,
+    "isProgrammer": true,
+    "languages": [
+        "javascript",
+        "typescript"
+    ]
+}
